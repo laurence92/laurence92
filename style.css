@@ -1,0 +1,82 @@
+body {
+  background-color: #FFE0B5;
+  text-align: center;
+}
+
+h1, h3{
+  font-family: 'Farro';
+  color: #462521;
+}
+p, a{
+  font-family: 'Quicksand';
+  color: #8A6552;
+}
+
+a:hover{
+  color: #462521;
+  opacity: 1;
+}
+
+.container{
+  margin: auto;
+}
+
+.card{
+  background-color: #FBFBFB;
+  margin-top: 10px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgba(0,0,0,0.1);
+  width: 33vw;
+}
+
+.button{
+  padding: 5px;
+  margin: 10px;
+  background-color: #BDB246;
+  text-decoration: none;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding:  0px 10px 10px 0px;
+  list-style-type: none;
+}
+
+ul{
+  padding: 0px;
+}
+
+.icons{
+  font-size: xx-large;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  /* #profile-picture {
+    width: auto;
+    height: auto;
+  } */
+  .container {
+    width: 45vw;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 60vw;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 85vw;
+  }
+
+}
